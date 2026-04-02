@@ -1,7 +1,7 @@
 def message_decode_tutorial(message, c):
     holder = ""
     for letter in range(0, len(message)):
-        if (letter + 1) % c == 0
+        if (letter + 1) % c == 0:
             holder = holder + message[letter]
     return holder
 
